@@ -1,0 +1,27 @@
+{
+    "caffe flavor": "NVIDIA",
+    "caffe version": "0.15.14",
+    "creation time": "2019-03-10 02:58:32.369200",
+    "dataset_id": "20190310-025702-5988",
+    "deploy file": "deploy.prototxt",
+    "digits version": "6.1.0",
+    "framework": "caffe",
+    "id": "20190310-025832-f4a6",
+    "image dimensions": [
+        256,
+        256,
+        3
+    ],
+    "image resize mode": "squash",
+    "job id": "20190310-025832-f4a6",
+    "labels file": "labels.txt",
+    "mean file": "mean.binaryproto",
+    "mean subtraction": "image",
+    "model file": "original.prototxt",
+    "name": "fourth_model",
+    "snapshot file": "snapshot_iter_1020.caffemodel",
+    "solver file": "solver.prototxt",
+    "status": "Running",
+    "train_val file": "train_val.prototxt",
+    "username": "mohamed_sayed"
+}
