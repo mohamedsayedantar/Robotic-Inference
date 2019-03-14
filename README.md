@@ -15,7 +15,12 @@ nowadays there are some cooking robots which enable us to cook the food.
 
 ![robot1](https://meee-services.com/wp-content/uploads/2018/02/robot-chef_resize_md.jpg)
 
-they are fully automated robots, so they have to capture the world around them using several kinds of sensors and cameras, in turn classifying images around the robot and determining each kitchenware is a core element of the robot perception process, using Nvidia DIGITS workflow with a collected photos of spoons or forks or even no thing to train a network for the classification processes.
+they are fully automated robots, so they have to capture the world around them using several kinds of sensors and cameras.
+in turn classifying images around the robot and determining each kitchenware is a core element of the robot perception process, using Nvidia DIGITS workflow with a collected photos of spoons or forks or even no thing to train a network for the classification processes.
+
+
+Background / Formulation
+------------------------
 
 
 
