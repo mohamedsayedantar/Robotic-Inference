@@ -78,14 +78,14 @@ first by opening the DIGITS workspace we should see something like this
 
 ### second the Collected Data
 
-for the supplied data there are 7570 image for the following 3 classes:
+for the Collected Data there are 1070 image for the following 3 classes:
 1. spoon
 2. fork
 3. no-thing
 
 #### for image classification
 
-- second the collected data using mobile camera then by resizing the collected data to be 256*256 
+- the collected data using mobile camera then by resizing the collected data to be 256*256 
 - by choosing `images` then `classification`.
 - adding our dataset url in this case using udacity workspace it will be `/data/kitchen`
 - as previous more setting can be done like Minimum samples per class or maximum samples per class or even the percentage of validation photos and testing photos
@@ -106,7 +106,8 @@ samples of the collected data :
 - by choosing `images` then `classification` 
 - now we can set the number of epochs, Snapshot interval, Base Learning Rate, Validation interval ....
 - by choosing one of the 3 networks provided LeNet, AlexNet and GoogLeNet in this case GoogLeNet gaved a better results than AlexNet.
-- giving the model a name the create.
+- giving the model a name then create.
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/model2.png)
 
 Results
 -------
@@ -139,6 +140,9 @@ Results
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test4.png)
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test5.png)
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test6.png)
+
+Discussion
+----------
 
 
 
