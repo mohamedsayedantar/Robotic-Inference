@@ -68,10 +68,18 @@ first by opening the DIGITS workspace we should see something like this
 #### the model
 
 - by choosing `images` then `classification` 
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/model-classification.png)
 
 - now we can set the number of epochs, Snapshot interval, Base Learning Rate, Validation interval ....
 - by choosing one of the 3 networks provided LeNet, AlexNet and GoogLeNet in this case AlexNet gaved a good results.
+- giving the model a name the create.
 
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/model.png)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/graph1.png)
+
+- by running the `evaluate` command in a new terminal in udacity workspace the results will be like so
+
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/evaluate.png)
 
 
 
