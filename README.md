@@ -164,6 +164,6 @@ https://www.iflscience.com/technology/robot-chef-home-could-arrive-2017/
 https://meee-services.com/how-to-use-cooking-robots-in-your-kitchen/
 
 
-
+NOTE : the supplied data model is very big so i uploaded it to the drive use the below link for this model
 
 [Supplied Data Model](https://drive.google.com/open?id=17r0Osgwb-YWyuTxHR0YVG8fzLLeRKRTS)
