@@ -34,7 +34,7 @@ Note that only the results based on a batch size of one are included. In most ca
 
 for the supplied data collected using Jetson TX2 camera above a conveyor belt AlexNet gave a good results in this case however the other DNN’s may give more accurate results.
 
-for the collected data GoogleNet gaved more accurate results than AlexNet using 0.001 learning rate.
+for the collected data, using about 350 image per class GoogleNet gaved more accurate results than AlexNet using 0.001 learning rate.
 
 Data Acquisition
 ----------------
@@ -72,22 +72,17 @@ first by opening the DIGITS workspace we should see something like this
 
 - now we can set the number of epochs, Snapshot interval, Base Learning Rate, Validation interval ....
 - by choosing one of the 3 networks provided LeNet, AlexNet and GoogLeNet in this case AlexNet gaved a good results.
-- giving the model a name the create.
+- giving the model a name then create.
 
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/model.png)
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/graph1.png)
 
-- by running the `evaluate` command in a new terminal in udacity workspace the results will be like so
-
-![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/evaluate.png)
-
-- by choosing images for test
-
-![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test1.png)
-![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test2.png)
-![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test3.png)
-
 ### second the Collected Data
+
+for the supplied data there are 7570 image for the following 3 classes:
+1. spoon
+2. fork
+3. no-thing
 
 #### for image classification
 
@@ -125,9 +120,24 @@ the 2 models results AlexNet and GoogLeNet
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test6.png)
 
 
+Results
+-------
+
+### first the Supplied Data
+
+- by running the `evaluate` command in a new terminal in udacity workspace the results will be like so
+
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/evaluate.png)
+
+- by choosing images for test
+
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test1.png)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test2.png)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test3.png)
 
 
 
+### second the Collected Data
 
 
 
