@@ -34,7 +34,7 @@ Note that only the results based on a batch size of one are included. In most ca
 
 for the supplied data collected using Jetson TX2 camera above a conveyor belt AlexNet gave a good results in this case however the other DNN’s may give more accurate results.
 
-for the collected data, using about 350 image per class GoogleNet gaved more accurate results than AlexNet using 0.001 learning rate.
+for the collected data, using about 350 image per class GoogleNet gave more accurate results than AlexNet using 0.001 learning rate.
 
 Data Acquisition
 ----------------
@@ -71,7 +71,7 @@ first by opening the DIGITS workspace we should see something like this
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/model-classification.png)
 
 - now we can set the number of epochs, Snapshot interval, Base Learning Rate, Validation interval ....
-- by choosing one of the 3 networks provided LeNet, AlexNet and GoogLeNet in this case AlexNet gaved a good results.
+- by choosing one of the 3 networks provided LeNet, AlexNet and GoogLeNet in this case AlexNet gave a good results.
 - giving the model a name then create.
 
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/model.png)
@@ -105,7 +105,7 @@ samples of the collected data :
 
 - by choosing `images` then `classification` 
 - now we can set the number of epochs, Snapshot interval, Base Learning Rate, Validation interval ....
-- by choosing one of the 3 networks provided LeNet, AlexNet and GoogLeNet in this case GoogLeNet gaved a better results than AlexNet.
+- by choosing one of the 3 networks provided LeNet, AlexNet and GoogLeNet in this case GoogLeNet gave a better results than AlexNet.
 - giving the model a name then create.
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/model2.png)
 
@@ -148,6 +148,18 @@ huge difference in accuracy between AlexNet and GoogLeNet as shown previously an
 
 Conclusion / Future Work
 ------------------------
+
+for the inference time AlexNet is good, but developers in many cases look for the accuracy so GoogLeNet is the best choice, increasing the number of collected data will lead to increasing accuracy but in case too much data the change will be very small almost no thing.
+
+for the robotic kitchen increasing the number of classes with almost every kitchenware known till now, will lead to more intelligent robots due to variety in classifying objects ability
+
+
+references
+----------
+
+https://www.asme.org/engineering-topics/articles/robotics/the-robotic-kitchen-is-cooking
+https://www.iflscience.com/technology/robot-chef-home-could-arrive-2017/
+https://meee-services.com/how-to-use-cooking-robots-in-your-kitchen/
 
 
 
