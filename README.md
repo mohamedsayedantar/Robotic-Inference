@@ -158,7 +158,9 @@ references
 ----------
 
 https://www.asme.org/engineering-topics/articles/robotics/the-robotic-kitchen-is-cooking
+
 https://www.iflscience.com/technology/robot-chef-home-could-arrive-2017/
+
 https://meee-services.com/how-to-use-cooking-robots-in-your-kitchen/
 
 
