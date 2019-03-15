@@ -132,7 +132,7 @@ Results
 ### second the Collected Data
 
 #### the 2 models results AlexNet and GoogLeNet
-![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/graph2.png)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/graph4.png)
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/graph3.png)
 
 - to see this model result by choosing images for test
