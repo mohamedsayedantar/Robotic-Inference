@@ -75,7 +75,6 @@ first by opening the DIGITS workspace we should see something like this
 - giving the model a name then create.
 
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/model.png)
-![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/graph1.png)
 
 ### second the Collected Data
 
@@ -109,22 +108,14 @@ samples of the collected data :
 - by choosing one of the 3 networks provided LeNet, AlexNet and GoogLeNet in this case GoogLeNet gaved a better results than AlexNet.
 - giving the model a name the create.
 
-the 2 models results AlexNet and GoogLeNet
-![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/graph2.png)
-![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/graph3.png)
-
-- by choosing images for test
-
-![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test4.png)
-![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test5.png)
-![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test6.png)
-
-
 Results
 -------
 
 ### first the Supplied Data
+- the output model graph for the supplied data using AlexNet 
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/graph1.png)
 
+#### two ways to see the model results as below:
 - by running the `evaluate` command in a new terminal in udacity workspace the results will be like so
 
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/evaluate.png)
@@ -139,6 +130,15 @@ Results
 
 ### second the Collected Data
 
+#### the 2 models results AlexNet and GoogLeNet
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/graph2.png)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/graph3.png)
+
+- to see this model result by choosing images for test
+
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test4.png)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test5.png)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test6.png)
 
 
 
