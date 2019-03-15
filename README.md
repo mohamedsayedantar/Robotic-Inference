@@ -41,7 +41,7 @@ Data Acquisition
 
 ### first the Supplied Data
 
-for the supplied data there are 7570 image for the following 3 classes:
+for the supplied data there are 7570 images for the following 3 classes:
 1. Bottle
 2. Candy Box
 3. Nothing
@@ -78,7 +78,7 @@ first by opening the DIGITS workspace we should see something like this
 
 ### second the Collected Data
 
-for the Collected Data there are 1070 image for the following 3 classes:
+for the Collected Data there are 1070 images for the following 3 classes:
 1. spoon
 2. fork
 3. no-thing
