@@ -89,9 +89,40 @@ first by opening the DIGITS workspace we should see something like this
 
 ### second the Collected Data
 
+#### for image classification
+
 - second the collected data using mobile camera then by resizing the collected data to be 256*256 
+- by choosing `images` then `classification`.
+- adding our dataset url in this case using udacity workspace it will be `/data/kitchen`
+- as previous more setting can be done like Minimum samples per class or maximum samples per class or even the percentage of validation photos and testing photos
+- then by giving the dataset a name and choosing create :
 
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/dataset2.png)
 
+samples of the collected data :
+
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/sample1.JPG)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/sample2.JPG)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/sample3.JPG)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/sample4.JPG)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/sample5.JPG)
+
+#### the model
+
+- by choosing `images` then `classification` 
+- now we can set the number of epochs, Snapshot interval, Base Learning Rate, Validation interval ....
+- by choosing one of the 3 networks provided LeNet, AlexNet and GoogLeNet in this case GoogLeNet gaved a better results than AlexNet.
+- giving the model a name the create.
+
+the 2 models results AlexNet and GoogLeNet
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/graph2.png)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/graph3.png)
+
+- by choosing images for test
+
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test4.png)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test5.png)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test6.png)
 
 
 
