@@ -41,6 +41,26 @@ Data Acquisition
 
 ### first the Supplied Data
 
+for the supplied data there are 7570 image for the following 3 classes:
+1. Bottle
+2. Candy Box
+3. Nothing
+
+the data looks like this photo below :
+
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/data-p1-digits.jpg)
+
+first by opening the DIGITS workspace we should see something like this
+
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/digits.png)
+
+
+
+
+
+
+
+
 ### second the Collected Data
 
 
