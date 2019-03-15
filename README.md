@@ -81,13 +81,15 @@ first by opening the DIGITS workspace we should see something like this
 
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/evaluate.png)
 
+- by choosing images for test
 
-
-
-
-
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test1.png)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test2.png)
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/test3.png)
 
 ### second the Collected Data
+
+- second the collected data using mobile camera then by resizing the collected data to be 256*256 
 
 
 
