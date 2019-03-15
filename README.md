@@ -39,8 +39,9 @@ for the collected data GoogleNet gaved more accurate results than AlexNet using 
 Data Acquisition
 ----------------
 
+### first the Supplied Data
 
-
+### second the Collected Data
 
 
 
