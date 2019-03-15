@@ -22,6 +22,23 @@ in turn classifying images around the robot and determining each kitchenware is 
 Background / Formulation
 ------------------------
 
+several types of DNN’s have been developed on the ImageNet benchmark dataset like AlexNet, VGGNet, ResNet, Inception, GoogleNet and their many variations.
+
+The increased accuracy is the result of breakthroughs in design and optimization, but comes at a cost when computation resources are considered.
+
+The following table provides a sampling of the results (values are approximated from graphs in the paper), including a derived metric called information density. The information density is a measure of the efficiency of the network, or how much accuracy is provided for every one million parameters that the network requires.
+
+![table](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/metrics.png)
+
+Note that only the results based on a batch size of one are included. In most cases, the batch size provides a speedup in inference time but maintains the same relative performance among architectures. However, an exception is AlexNet, which sees a 3x speedup when going from 1 to 64 images per batch due to weak optimization of its fully connected layer.
+
+for the supplied data collected using Jetson TX2 camera above a conveyor belt AlexNet gave a good results in this case however the other DNN’s may give more accurate results.
+
+for the collected data GoogleNet gaved more accurate results than AlexNet using 0.001 learning rate.
+
+Data Acquisition
+----------------
+
 
 
 
