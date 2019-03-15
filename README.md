@@ -54,6 +54,24 @@ first by opening the DIGITS workspace we should see something like this
 
 ![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/digits.png)
 
+#### for image classification
+
+- by choosing `images` then `classification` we will see something like so 
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/image-classification.png)
+
+- adding our dataset url in this case using udacity workspace it will be `/data/P1_data`
+- more setting can be done here like Minimum samples per class or maximum samples per class or even the percentage of validation photos and testing photos
+- then by giving the dataset a name and choosing create :
+
+![](https://github.com/mohamedsayedantar/Robotic-Inference/blob/master/images/dataset.png)
+
+#### the model
+
+- by choosing `images` then `classification` 
+
+- now we can set the number of epochs, Snapshot interval, Base Learning Rate, Validation interval ....
+- by choosing one of the 3 networks provided LeNet, AlexNet and GoogLeNet in this case AlexNet gaved a good results.
+
 
 
 
