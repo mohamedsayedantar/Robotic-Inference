@@ -144,7 +144,10 @@ Results
 Discussion
 ----------
 
+huge difference in accuracy between AlexNet and GoogLeNet as shown previously and this difference appear more with small number of data given to the model like the previous case about 1070 images only for classification, while this difference become smaller with increasing the number of data, after many attempts the inference time for GoogLeNet is greater than AlexNet.
 
+Conclusion / Future Work
+------------------------
 
 
 
